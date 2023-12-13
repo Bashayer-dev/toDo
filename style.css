@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* "#F875AA" */
+/* #FFF6F6 */
+/* #AEDEFC */
+/* #A6CF98 */
+
+body {
+  font-family: "Playpen Sans";
+  background-color: #ffdfdf;
+  /* display: flex;
+  width: 100%;
+  height: 100%; */
+}
+/* Heading */
+#title {
+  margin: 1rem;
+}
+/* Input */
+#todo-input,
+#search {
+  margin-left: 1rem;
+  height: 2rem;
+  width: 20rem;
+  background-color: #ffdfdf;
+  border: none;
+  border-bottom: 1px solid;
+}
+/* remove the blue border when clicking on input */
+input:focus {
+  outline: none;
+}
+/* Button */
+#add-btn {
+  background-color: #aedefc;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 1rem;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+/* List */
+#todo-list {
+  /* background-color: black; */
+  margin-left: 4rem;
+  list-style-type: none;
+}
+
+#label {
+  margin: 1rem;
+}
